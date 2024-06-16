@@ -1,0 +1,40 @@
+@import 'aos/dist/aos.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #bafdf9;
+  --secondary-color: #a5e1df;
+  --accent-color-1: #90c5c4;
+  --accent-color-2: #668c8e;
+  --dark-cyan: #3c5459;
+  --dark-slate-gray: #27383e;
+  --gunmetal: #1d2a31;
+  --rich-black: #121b23;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--rich-black);
+  color: var(--primary-color);
+}
+
+header {
+  padding: 20px;
+}
+
+header {
+  background-color: var(--rich-black);
+}
+
+section {
+  background-color: var(--rich-black);
+}
+
+.logo {
+  width: 55px;
+  margin: 5px 20px;
+}
