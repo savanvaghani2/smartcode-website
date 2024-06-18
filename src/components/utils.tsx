@@ -11,7 +11,7 @@ export const Section: Component<{ children: any, id?: string }> = (props) => {
 };
 export const Layout = (props: { children: any }) => {
     return (
-        <div>
+        <div style={'width: -webkit-fill-available;overflow: hidden;'}>
             <Header />
             {props.children}
             <Footer />

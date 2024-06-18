@@ -23,10 +23,6 @@ body {
 }
 
 header {
-  padding: 20px;
-}
-
-header {
   background-color: var(--rich-black);
 }
 
@@ -35,6 +31,5 @@ section {
 }
 
 .logo {
-  width: 55px;
   margin: 5px 20px;
 }
