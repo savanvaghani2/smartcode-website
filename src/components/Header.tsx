@@ -9,6 +9,7 @@ const Header: Component = () => {
         }
     };
 
+
     return (
         <div class="space-y-4">
             <header class="flex flex-wrap md:justify-start md:flex-nowrap w-full bg-gray-800 text-sm py-4">
